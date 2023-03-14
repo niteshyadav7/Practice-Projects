@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Nitesh Yadav">
-    <meta name="description" content="We are making some projects by HTML">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Nitesh Yadav" />
+    <meta name="description" content="We are making some projects by HTML" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About LTS</a></li>
+          <li><a href="#">Ourt Menu</a></li>
+          <li><a href="#">Store Hours</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <figure>
+        <img src="./img/tacos_close_up_400x260.png" alt="images" />
+        <figcaption>Little Taco Shop Tacos</figcaption>
+      </figure>
+    </section>
+    <section>
+      <form action="https://httpbin.org/get" method="get">
+        <div>
+          <label for="firstName">First Name:</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            required
+            autofocus
+          />
+        </div>
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input type="text" name="lastName" id="lastName" />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            placeholder="*****"
+          />
+        </div>
+        <div>
+          <label for="phone">Phoen:</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+          />
+        </div>
+        <div>
+            <p>Input Box:</p>
+            <input type="checkbox" name="" id="">
+            <input type="radio" name="" id="">
+            
+        </div>
+      </form>
+    </section>
+  </body>
 </html>
