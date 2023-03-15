@@ -1,3 +1,46 @@
 ⛔JAVASCRIPT:⛔⬇️⬇️
 =>>JavaScript is a High-level,Object-Oriented,Multi-Paradigm,Programming Languages.
 
+
+const day = "sunday";
+
+switch (day) {
+  case "monday":
+    console.log("Play cricket!");
+    console.log("Do your Home Work!");
+    break;
+  case "tuesday":
+    console.log("Do your project work!");
+    break;
+  case "wednesday":
+    console.log("Do Masterbateing");
+    break;
+  case "thursday":
+    console.log("Do Yoga!");
+    break;
+  case "friday":
+    console.log("Make Routine");
+    console.log("Do ur work!");
+    break;
+  default:
+    console.log("Enjoy your Night!😊");
+}
+
+
+///////////////////////////
+
+var x=23;
+var y=++x;//24;
+x++
+console.log(x)//26
+
+
+😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊
+
+JO V VALUE DETA HAI WO EXPRESSION HOTA HAI. AUR JO V VALUE NHI DETA WO STATEMENT HOTA HAI.
+
+😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊
+
+if-else me jha v truty mil jaye ga wha se return ho jayega .
+
+😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊😊

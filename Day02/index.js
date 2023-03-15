@@ -221,9 +221,6 @@ if (markHigherBMI2) {
 // console.log(Boolean(undefined));
 // console.log(Boolean(NaN));
 
-
-
-
 ////////////////////////////////////
 // Coding Challenge #3
 
@@ -242,3 +239,206 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
 GOOD LUCK 😀
 */
+
+// const averageDolphins1 = (96 + 108 + 89) / 3;
+// const averageDolphins2 = (97 + 112 + 101) / 3;
+// const averageDolphins3 = (97 + 112 + 101) / 3;
+
+// const averageKoalas1 = (88 + 91 + 110) / 3;
+// const averageKoalas2 = (109 + 95 + 123) / 3;
+// const averageKoalas3 = (109 + 95 + 106) / 3;
+
+// console.log(averageDolphins1, averageDolphins2, averageDolphins3);
+// console.log(averageKoalas1, averageKoalas2, averageKoalas3);
+
+// if (averageDolphins1 > averageKoalas1) {
+//   console.log("Dolphines is the Winner");
+// } else if (averageKoalas1 > averageDolphins1) {
+//   console.log("Koalas is the Winner");
+// } else {
+//   console.log("Match Draw");
+// }
+// console.log("---------------1-----------------");
+// if (averageDolphins2 > averageKoalas2) {
+//   console.log("Dolphines is the Winner");
+// } else if (averageKoalas2 > averageDolphins2) {
+//   console.log("Koalas is the Winner");
+// } else {
+//   console.log("Match Draw");
+// }
+// console.log("---------------1-----------------");
+// if (averageDolphins3 > averageKoalas3) {
+//   console.log("Dolphines is the Winner");
+// } else if (averageKoalas3 > averageDolphins3) {
+//   console.log("Koalas is the Winner");
+// } else {
+//   console.log("Match Draw");
+// }
+// console.log("-----------------😊---------------");
+
+// if (averageDolphins1 > averageKoalas1 && averageDolphins1 >= 10) {
+//   console.log("Dolphines is the Winner");
+// } else if (averageKoalas1 > averageDolphins1 && averageKoalas1 >= 100) {
+//   console.log("Koalas is the Winner");
+// } else if (
+//   averageDolphins1 === averageKoalas1 &&
+//   averageDolphins1 >= 100 &&
+//   averageKoalas1 >= 100
+// ) {
+//   console.log("Draw");
+// } else {
+//   console.log("No wins");
+// }
+// console.log("--------------------------------");
+// if (averageDolphins2 > averageKoalas2 && averageDolphins2 >= 100) {
+//   console.log("Dolphines is the Winner");
+// } else if (averageKoalas2 > averageDolphins2 && averageKoalas2 >= 100) {
+//   console.log("Koalas is the Winner");
+// } else if (
+//   averageDolphins2 === averageKoalas2 &&
+//   averageDolphins2 >= 100 &&
+//   averageKoalas2 >= 100
+// ) {
+//   console.log("Draw");
+// } else {
+//   console.log("No wins");
+// }
+// console.log("---------------2-----------------");
+// if (averageDolphins3 > averageKoalas3 && averageDolphins3 >= 100) {
+//   console.log("Dolphines is the Winner");
+// } else if (averageKoalas3 > averageDolphins3 && averageKoalas3 >= 100) {
+//   console.log("Koalas is the Winner");
+// } else if (
+//   averageDolphins3 === averageKoalas3 &&
+//   averageDolphins3 >= 100 &&
+//   averageKoalas3 >= 100
+// ) {
+//   console.log("Draw");
+// } else {
+//   console.log("No wins");
+// }
+
+//////////////////////////////////////////
+// Switch Statement:
+/*
+const day = "sunday";
+
+switch (day) {
+  case "monday":
+    console.log("Play cricket!");
+    console.log("Do your Home Work!");
+    break;
+  case "tuesday":
+    console.log("Do your project work!");
+    break;
+  case "wednesday":
+    console.log("Do Masterbateing");
+    break;
+  case "thursday":
+    console.log("Do Yoga!");
+    break;
+  case "friday":
+    console.log("Make Routine");
+    console.log("Do ur work!");
+    break;
+  default:
+    console.log("Enjoy your Night!😊");
+}
+*/
+
+// Compare with if-else and switch case:
+
+// const nameFirst="n"
+
+// if(nameFirst==="golu"){
+//     console.log("Print Golu!");
+// }else if(nameFirst==="nitesh"){
+//     console.log("print nitesh");
+// }else{
+//     console.log("no match😊");
+// }
+
+// switch(nameFirst){
+//     case "golu":
+//         console.log("print golu!");
+//         break;
+//     case 'nitesh':
+//         console.log("print nitesh!");
+//         break;
+//     default:
+//         console.log('no match😊');
+// }
+
+// var x=23;
+
+// var y=++x
+// x++
+// console.log(x)//26
+// console.log(y);//24
+
+// expression and statement :
+
+// Ternary Operator:
+// const myAge = 23;
+// if (myAge > 12 && myAge < 18) {
+//   console.log(`You can fuck!`);
+// } else if (myAge > 18) {
+//   console.log(`You can drive!`);
+// } else {
+//   console.log(`You fucked`);
+// }
+// console.log(`----------------------`);
+// myAge > 12 && myAge < 18
+//   ? console.log(`You can fuck!`)
+//   : myAge > 18
+//   ? console.log(`You can drive!`)
+//   : console.log(`You fucked`);
+
+// const age=23;
+// const drinking =age>=18?'drink':'Not allowed'
+// console.log(drinking);
+
+////////////////////////////////////
+// Coding Challenge #4
+
+/*
+Steven wants to build a very simple tip calculator for whenever he goes eating in a resturant. In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
+
+1. Your task is to caluclate the tip, depending on the bill value. Create a variable called 'tip' for this. It's not allowed to use an if/else statement 😅 (If it's easier for you, you can start with an if/else statement, and then try to convert it to a ternary operator!)
+2. Print a string to the console containing the bill value, the tip, and the final value (bill + tip). Example: 'The bill was 275, the tip was 41.25, and the total value 316.25'
+
+TEST DATA: Test for bill values 275, 40 and 430
+
+HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
+HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
+
+GOOD LUCK 😀
+*/
+
+const bill01 = 275;
+const bill02 = 40;
+const bill03 = 430;
+const tip1 = bill01 > 50 && bill01 < 300 ? bill01 * 0.15 : bill01 * 0.2;
+console.log(tip1);
+
+console.log(
+  `The bill was ${bill01}, the tip was ${tip1}, and the total value ${
+    bill01 + tip1
+  }`
+);
+const tip2 = bill02 > 50 && bill02 < 300 ? bill02 * 0.15 : bill02 * 0.2;
+console.log(tip2);
+
+console.log(
+  `The bill was ${bill02}, the tip was ${tip2}, and the total value ${
+    bill02 + tip2
+  }`
+);
+const tip3 = bill03 > 50 && bill03 < 300 ? bill03 * 0.15 : bill03 * 0.2;
+console.log(tip3);
+
+console.log(
+  `The bill was ${bill03}, the tip was ${tip3}, and the total value ${
+    bill03 + tip3
+  }`
+);
