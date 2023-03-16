@@ -1,3 +1,5 @@
+'use strict';
+
 // console.log("hello World!");
 
 /*Data Types */
@@ -415,30 +417,52 @@ HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 GOOD LUCK 😀
 */
 
-const bill01 = 275;
-const bill02 = 40;
-const bill03 = 430;
-const tip1 = bill01 > 50 && bill01 < 300 ? bill01 * 0.15 : bill01 * 0.2;
-console.log(tip1);
+// const bill01 = 275;
+// const bill02 = 40;
+// const bill03 = 430;
+// const tip1 = bill01 > 50 && bill01 < 300 ? bill01 * 0.15 : bill01 * 0.2;
+// console.log(tip1);
 
-console.log(
-  `The bill was ${bill01}, the tip was ${tip1}, and the total value ${
-    bill01 + tip1
-  }`
-);
-const tip2 = bill02 > 50 && bill02 < 300 ? bill02 * 0.15 : bill02 * 0.2;
-console.log(tip2);
+// console.log(
+//   `The bill was ${bill01}, the tip was ${tip1}, and the total value ${
+//     bill01 + tip1
+//   }`
+// );
+// const tip2 = bill02 > 50 && bill02 < 300 ? bill02 * 0.15 : bill02 * 0.2;
+// console.log(tip2);
 
-console.log(
-  `The bill was ${bill02}, the tip was ${tip2}, and the total value ${
-    bill02 + tip2
-  }`
-);
-const tip3 = bill03 > 50 && bill03 < 300 ? bill03 * 0.15 : bill03 * 0.2;
-console.log(tip3);
+// console.log(
+//   `The bill was ${bill02}, the tip was ${tip2}, and the total value ${
+//     bill02 + tip2
+//   }`
+// );
+// const tip3 = bill03 > 50 && bill03 < 300 ? bill03 * 0.15 : bill03 * 0.2;
+// console.log(tip3);
 
-console.log(
-  `The bill was ${bill03}, the tip was ${tip3}, and the total value ${
-    bill03 + tip3
-  }`
-);
+// console.log(
+//   `The bill was ${bill03}, the tip was ${tip3}, and the total value ${
+//     bill03 + tip3
+//   }`
+// );
+
+
+// let user = {
+//   firstname: 'John',
+//   lastname: 'Doe',
+//   getFullName: function(){
+//       return() => {
+//           console.log(`The full name of the user is ${this.firstname} ${this.lastname} `);
+//       }
+//   }    
+// }
+// user.getFullName()();
+
+// let num =6
+// let sum=0;
+// for(let i=0;i<=num;i++){
+//   if(i%2==0){
+//     sum+=i;
+//   }
+// }
+// console.log(sum);
+
