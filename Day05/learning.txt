@@ -1,0 +1,24 @@
+// Learning Array Destructuring
+
+// 🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆
+// Array Destructuring :
+
+/*
+const friends = ['Aman', 'Shyam', 'Ram', 'Ghansyam', 'Putri'];
+
+let [first, , , , last = 1] = friends;
+console.log(first, last);
+
+[first, , , , last] = [last, , , , first];
+console.log(first, last);
+
+// Object Destructuring :
+let a = 23;
+let b = 54;
+const num = {
+  a: 5,
+  b: 7,
+};
+({ a, b } = num);
+console.log(a, b);
+*/
