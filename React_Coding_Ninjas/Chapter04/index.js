@@ -43,4 +43,54 @@
 //   );
 // };
 // ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+////////////////////////////////////////////////////
 
+// const App = () => {
+//   const cars = ["BMW", "Toyota", "Maruti", "Audi"];
+//   return (
+//     <>
+//       <h3>Some List of Cars</h3>
+//       <ul>
+
+//           {cars.map((num, index) => (
+//             <li>{num}</li>
+//           ))}
+
+//       </ul>
+//     </>
+//   );
+// };
+
+//////////////////////////////////////////////////
+
+const App = () => {
+  let Students = [
+    { name: "Alexa", age: 10, marks: 35 },
+    { name: "Siri", age: 12, marks: 45 },
+    { name: "Google", age: 15, marks: 50 },
+  ];
+  return (
+    <>
+      <h1>Student Info's</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+        {Students.map((num, key) => (
+          <tbody>
+            <tr>
+              <td>{num.name}</td>
+              <td>{num.age}</td>
+              <td>{num.marks}</td>
+            </tr>
+          </tbody>
+        ))}
+      </table>
+    </>
+  );
+};
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
