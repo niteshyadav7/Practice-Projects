@@ -7,12 +7,14 @@
 // // setShow()
 // console.log(show);
 
+// let sum=0;
+// function add (){
+//   return sum+=1;
+// }
+// console.log(add());
+// console.log(add());
+// console.log(add());
+// // add();
 
-let sum=0;
-function add (){
-  return sum+=1;
-}
-console.log(add());
-console.log(add());
-console.log(add());
-// add();
+const [, , first] = ["horse", "cat", "cow"];
+console.log(first);
