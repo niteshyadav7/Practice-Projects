@@ -1,12 +1,30 @@
-html{
-    font-size: 22px;
+html {
+  font-size: 22px;
 }
 
-body{
-    background-color: #333;
-    color: whitesmoke;
-    text-align: center;
+body {
+  background-color: #333;
+  color: rgb(50, 22, 189);
+  text-align: center;
 }
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
+}
+a:link {
+  color: #ff0000;
+}
+a:visited {
+  color: #00ff00;
+}
+a:hover {
+  color: #ff00ff;
+}
+a:active {
+  color: #0000ff;
+}
+table, tr, th, td, caption {
+  border: 1px solid #eee;
+  font-family: 'Courier New', Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5rem;
 }
