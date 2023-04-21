@@ -9,24 +9,23 @@
 
 
 # HOVER
-/*
+
 /* unvisited link */
-a:link {
+- a:link {
   color: #FF0000;
 }
 
 /* visited link */
-a:visited {
+- a:visited {
   color: #00FF00;
 }
 
 /* mouse over link */
-a:hover {
+- a:hover {
   color: #FF00FF;
 }
 
 /* selected link */
-a:active {
+- a:active {
   color: #0000FF;
 }
-*/
