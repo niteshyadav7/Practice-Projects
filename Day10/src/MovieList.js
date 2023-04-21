@@ -8,10 +8,35 @@ class MovieList extends React.Component {
       plot: "Super Natural power shown in the movies",
       price: "Rs.189",
       rating: 8.9,
+      star: 0,
+      fav: false,
+      cart: false,
     };
   }
+  // handleInc=()=>{
+  //   // console.log("this:",this);
+  //   this.setState({
+  //     stars:this.state.star+0.5
+  //   })
+  handleCart = () => {
+    this.setState({
+      cart: !this.state.cart,
+    });
+  };
+  handle = () => {
+    this.setState({
+      fav: !this.state.fav,
+    });
+  };
+
+  addStars = () => {
+    //Form 1 of setState() - increasing the star count by 0.5
+    this.setState({
+      star: this.state.star + 0.5,
+    });
+  };
   render() {
-    const {title,plot,price,rating}=this.state;
+    const { title, plot, price, rating, star, fav, cart } = this.state;
     return (
       <>
         <div>
@@ -21,7 +46,7 @@ class MovieList extends React.Component {
             width={100}
           />
         </div>
-        <h3>{this.state.title}</h3>
+        <h3>{title}</h3>
         <p>{plot}</p>
         <div>{price}</div>
         <div>{rating}</div>
@@ -36,11 +61,26 @@ class MovieList extends React.Component {
             alt="icon"
             width="10px"
           />
+          {/* <img onClick={this.handleInc.bind(this)} */}
           <img
+            onClick={this.addStars}
             alt="plus"
             src="https://cdn-icons-png.flaticon.com/512/748/748113.png"
             width={10}
           />
+          <div>{star}</div>
+        </div>
+        {fav ? (
+          <button onClick={this.handle}>Favorite</button>
+        ) : (
+          <button onClick={this.handle}>Un-Favorite</button>
+        )}
+        <div>
+          {cart ? (
+            <button onClick={this.handleCart}>Add to Cart</button>
+          ) : (
+            <button onClick={this.handleCart}>Remove the Cart</button>
+          )}
         </div>
       </>
     );
